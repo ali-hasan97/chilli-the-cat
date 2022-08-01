@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(101, 117, 117);
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.home {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.intro {
+    display: flex;
+    flex: none;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.intro img {
+    width: 500px;
+    height: auto;
+    flex: 0 1 0%;
+}
+
+.intro div {
+    flex: 1;
+}
+
+.experience {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.skills,
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills img {
+    width: 300px;
+    height: 300px;
+}
+
+.projects img {
+    width: 300px;
+    height: 300px;
+}
